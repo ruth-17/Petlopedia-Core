@@ -1,0 +1,84 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.barra {
+    width: 1220px;
+    height: 80px;
+    background-color: rgb(182, 180, 180);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    margin: 15px;
+}
+
+input {
+    width: 550px;
+}
+
+.barra > button {
+    height: 30px;
+    background-color: rgb(41, 177, 223);
+    color: white;
+    margin: 15px;
+}
+
+.box {
+    width: 850px;
+    height: 200px;
+    margin: 20px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.box > h2 {
+    margin: 10px;
+}
+
+.box > h4 {
+    margin: 10px;
+}
+
+.box > p {
+    margin: 10px;
+}
+
+.box > button {
+    margin: 10px;
+    background-color: rgb(247, 247, 148);
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.side-box {
+    width: 350px;
+    height: 110px;
+    margin: 20px 2px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.side-box > h3 {
+    margin: 10px 20px;
+}
+
+.side-box > button {
+    width: 250px;
+    height: 40px;
+    margin: 7px 20px;
+    background-color: green;
+    color: white;
+    font-size: medium;
+}
